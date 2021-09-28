@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 
-const a = false;
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    {a ? <App /> : <h1>hellow</h1>}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
